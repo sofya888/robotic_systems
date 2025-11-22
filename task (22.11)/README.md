@@ -6,10 +6,11 @@
 wsl
 
 # Внутри WSL (Ubuntu):
+```
 cd "/mnt/c/Users/sofus/robotic_systems/task (22.11)/src"
 sudo apt-get update
 sudo apt-get install -y g++
-
+````
 # Компиляция
 g++ -std=c++17 -O2 -o file_ops     file_operations.cpp
 g++ -std=c++17 -O2 -o proc_read    proc_filesystem.cpp
