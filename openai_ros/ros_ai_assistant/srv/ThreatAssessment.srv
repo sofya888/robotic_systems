@@ -1,0 +1,5 @@
+string assessment_data
+---
+float32 threat_level
+string recommendation
+float32 confidence

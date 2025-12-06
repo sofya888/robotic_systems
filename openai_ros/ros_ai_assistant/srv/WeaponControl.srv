@@ -1,0 +1,6 @@
+string action
+string mode
+float32 intensity
+---
+bool success
+string message

@@ -1,0 +1,6 @@
+string prompt
+string context
+---
+string response
+bool success
+float32 confidence

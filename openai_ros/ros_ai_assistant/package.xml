@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros_ai_assistant</name>
+  <version>0.0.1</version>
+  <description>ROS 2 AI assistant with OpenAI integration</description>
+
+  <maintainer email="sofushka.2004@mail.ru">sofus</maintainer>
+  <license>MIT</license>
+
+  <!-- build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- runtime -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <!-- для python-пакета -->
+  <exec_depend>ament_cmake_python</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
