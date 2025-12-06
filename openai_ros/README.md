@@ -1,15 +1,22 @@
-ROS2 проект AI-ассистента (пакет ros_ai_assistant).
 
-Как запустить (Windows, ROS2):
+ROS2 РїСЂРѕРµРєС‚ AI-Р°СЃСЃРёСЃС‚РµРЅС‚Р° (РїР°РєРµС‚ ros_ai_assistant).
 
-1. Создать workspace:
-   C:\dev\ros2-windows\ws_ai\src\ros_ai_assistant  <- эту папку поместить в src
+РљР°Рє Р·Р°РїСѓСЃС‚РёС‚СЊ (Windows, ROS2):
 
-2. В x64 Native Tools Command Prompt:
+1. РЎРѕР·РґР°С‚СЊ workspace:
+   ```
+   C:\dev\ros2-windows\ws_ai\src\ros_ai_assistant  <- СЌС‚Сѓ РїР°РїРєСѓ РїРѕРјРµСЃС‚РёС‚СЊ РІ src
+   ```
+
+3. Р’ x64 Native Tools Command Prompt:
+   ```
    cd C:\dev\ros2-windows\ws_ai
    call C:\dev\ros2-windows\ros2-windows\setup.bat
    colcon build --merge-install
    call install\setup.bat
+   ```
 
-3. Запуск:
+4. Р—Р°РїСѓСЃРє:
+```
    ros2 launch ros_ai_assistant assistant.launch.py
+```
